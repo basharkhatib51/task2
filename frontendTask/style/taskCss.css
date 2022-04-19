@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "JF Flat";
+    src: local("JF Flat"),
+    url(../fonts/JF-Flat-regular.ttf) format("truetype");
+}
+
+/** {*/
+/*    font-family: "JF Flat";*/
+/*    color: white;*/
+/*}*/
+
+a {
+    color: white !important;
+}
+
+html {
+
+}
+
+body {
+    background-color: #F5F5F5 !important;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.footer {
+    background: #0A497C;
+    margin-top: 20px;
+    color: white;
+    padding-top: 20px;
+
+}
+.copy-right{
+    background: #09375E;
+    text-align: center;
+
+}
+
+.text-color {
+    color: #0A497C;
+}
+
+.nav-b {
+    background: #09375E;
+    background: linear-gradient(180deg, #09375E 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.my-table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: url('../media/جوهرة%20لأركان%20(1)-1.svg') no-repeat left top;
+    padding-left: 30px;
+}
+
+th {
+    background: #0A497C;
+    color: white;
+}
+
+td:first-child,
+th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+td:last-child,
+th:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+td {
+    background-color: white;
+}
+
+.card-image-overlay {
+    position: absolute;
+    /*margin: 50vh auto 0;*/
+    /*transform: translateY(-50%);*/
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px);
+}
+
+.card-text-overlay {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px);
+}
+
+/*.card-icon*/
+/*{*/
+/*    top: 10px;*/
+/*    text-align: center;*/
+/*}*/
+.background-triangle {
+    background: url("../media/Path 5.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    min-height: 932px;
+}
